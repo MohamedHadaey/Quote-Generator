@@ -1,0 +1,117 @@
+.home {
+  background-image: url(../images/img2.jpg);
+  background-size: cover;
+  background-position: center;
+}
+.home h1 {
+  font-size: 100px;
+  font-weight: 800;
+  color: #09c;
+  font-family: "Alegreya", serif;
+}
+.home p:first-of-type {
+  margin: 30px auto;
+  font-size: 25px;
+  width: 75%;
+  margin: auto;
+  font-weight: 700;
+  font-style: italic;
+  font-family: "Nunito", sans-serif;
+}
+.home button{
+  margin-top: 30px;
+  font-weight: bold;
+  font-family: "Alegreya", serif;
+  transition: all 0.3s;
+}
+.home button:active{
+  background-color: black;
+}
+.home p:nth-of-type(2) {
+  font-size: 40px;
+  margin: 30px;
+  line-height: 50px;
+  font-weight: bold;
+  color: #222;
+  font-style: italic;
+  font-family: "Caveat", cursive;
+}
+.home p:nth-of-type(3) {
+  font-size: 40px;
+  margin-top: 30px;
+  line-height: 50px;
+  font-weight: bold;
+  color: teal;
+  font-style: italic;
+  font-family: "Alegreya", serif;
+}
+@media screen and (max-width: 576px) {
+  .home h1 {
+    font-size: 50px;
+    font-weight: 700;
+  }
+  .home p:first-of-type {
+    margin-bottom: 5px !important;
+    font-size: 20px;
+    font-weight: 500;
+  }
+  .home p:nth-of-type(2) {
+    font-size: 30px;
+    line-height: 30px;
+  }
+  .home p:nth-of-type(3) {
+    font-size: 30px;
+    line-height: 30px;
+  }
+  button{
+    margin-top: 15px !important;
+  }
+}
+@media screen and (min-width: 577px) and (max-width: 768px) {
+  .home h1 {
+    font-size: 60px;
+    font-weight: 700;
+  }
+  .home p:first-of-type {
+    font-size: 22px;
+    font-weight: 500;
+  }
+  .home p:nth-of-type(2) {
+    font-size: 35px;
+    line-height: 40px;
+  }
+  .home p:nth-of-type(3) {
+    font-size: 30px;
+    line-height: 30px;
+  }
+}
+@media screen and (min-width: 769px) and (max-width: 992px) {
+  .home h1 {
+    font-size: 70px;
+    font-weight: 700;
+  }
+  .home p:first-of-type {
+    font-size: 22px;
+    font-weight: 600;
+  }
+  .home p:nth-of-type(3) {
+    font-size: 35px;
+    line-height: 40px;
+  }
+}
+@media screen and (min-width: 993px) and (max-width: 1200px) {
+  .home h1 {
+    font-size: 90px;
+    font-weight: 700;
+  }
+  .home p:first-of-type {
+    font-size: 23px;
+    font-weight: 600;
+  }
+}
+@media screen and (min-width: 1201px) and (max-width: 1400px) {
+  .home h1 {
+    font-size: 100px;
+    font-weight: 800;
+  }
+}
